@@ -1,0 +1,112 @@
+/* === General === */
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #ffffff;
+}
+/* === Main === */
+main{
+    height: fit-content;
+    width: 1000px;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 10px 10px;
+}
+/* === Navigation === */
+nav{
+    height: 80px;
+    width: 980px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#logo{
+    font-size: 30px;
+    font-weight: 800;
+    font-family: 'Montserrat';
+    color: #414141;
+    text-decoration: none;
+}
+#logo span{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Dancing Script';
+    color: #db005b;
+    text-decoration: none;
+    letter-spacing: 0.10em;
+}
+/* === Navigation links === */
+#links{
+    height: 80px;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#links a{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Montserrat';
+    color: #414141;
+    text-decoration: none;
+    margin: 0px 10px;
+}
+#links .active{
+    color: #db005b;
+}
+#links a:hover{
+    color: #db005b;
+    transition: ease 400ms;
+}
+/* === Cart === */
+#cart-acc{
+    height: 80px;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+#cart-acc a{
+    font-size: 18px;
+    font-weight: 500;
+    color: #414141;
+    text-decoration: none;
+    margin: 0px 10px; 
+}
+#cart-acc #num{
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    height: 16px;
+    width: 16px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #db005b;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Montserrat';
+    color: #ffffff;
+}
+/* ===  === */
+/* ===  === */
+/* ===  === */
+/* ===  === */
+/* ===  === */
+/* ===  === */
+/* ===  === */
+/* ===  === */
+/* ===  === */
+/* ===  === */
+/* ===  === */
+/* ===  === */
+/* ===  === */
+/* ===  === */
+/* ===  === */
+/* ===  === */
+/* ===  === */
+/* ===  === */
+/* ===  === */
+/* === D === */
